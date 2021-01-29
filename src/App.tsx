@@ -8,11 +8,14 @@ import "./utils/FontAwesome";
 import "./styles/global.scss";
 import "bootstrap";
 import "jquery";
+import Background from "./components/Background";
 
 function App() {
   return (
     <Suspense fallback={<Loading />}>
-      <Routes />
+      <Background>
+        <Routes />
+      </Background>
     </Suspense>
   );
 }

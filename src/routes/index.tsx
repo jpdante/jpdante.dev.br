@@ -3,15 +3,21 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
 
-const Home = React.lazy(() => import("../pages/Home"));
+import Home from "../pages/Home";
+import Projects from "../pages/Projects";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
 
 function Router() {
   return (
     <div className="wrapper">
-      <NavBar />
       <BrowserRouter>
+        <NavBar />
         <Switch>
           <Route exact component={Home} path="/" />
+          <Route exact component={Projects} path="/projects" />
+          <Route exact component={About} path="/about" />
+          <Route exact component={Contact} path="/contact" />
         </Switch>
       </BrowserRouter>
     </div>
@@ -19,10 +25,3 @@ function Router() {
 }
 
 export default Router;
-
-/*
-
-<Route component={Channel} path="/channel/" />
-<Route component={Watch} path="/watch/" />
-
-*/

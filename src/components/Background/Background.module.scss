@@ -1,0 +1,22 @@
+.bg {
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.bgDark {
+  background: #00396e;
+  background: linear-gradient(
+    351deg,
+    #18163b 0%,
+    #00396e 100%
+  );
+}
+
+.bgLight {
+  background: #665eff;
+  background: linear-gradient(
+    351deg,
+    #665eff 0%,
+    #00c3ff 100%
+  );
+}

@@ -5,5 +5,5 @@ interface IGlobalStore {
 }
 
 export const GlobalStore = new Store<IGlobalStore>({
-  isDarkMode: true,
+  isDarkMode: false,
 });

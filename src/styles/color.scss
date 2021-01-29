@@ -1,0 +1,28 @@
+$font-family-base: Poppins-Regular;
+
+// -- Colors --
+$dark: #1f1e1e;
+$red: #ff003d;
+$pink: #e83e8c;
+$dev: #665eff;
+$linkedin: #0A66C2;
+$github: #302F2F;
+
+$theme-colors: (
+  "dark": $dark,
+  "pink": $pink,
+  "red": $red,
+  "dev": $dev,
+  "linkedin": $linkedin,
+  "github": $github,
+);
+
+$colors: (
+  "pink": $pink,
+  "red": $red,
+  "dev": $dev,
+  "linkedin": $linkedin,
+  "github": $github,
+);
+
+$danger: $red;
