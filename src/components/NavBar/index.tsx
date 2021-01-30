@@ -6,6 +6,7 @@ import NavLink from "./NavLink";
 
 const App = () => {
   const isDarkMode = GlobalStore.useState((s) => s.isDarkMode);
+  const rotation = 0;
 
   return (
     <nav
@@ -53,7 +54,7 @@ const App = () => {
                 });
               }}
             >
-              <FontAwesomeIcon icon="adjust" />
+              <FontAwesomeIcon icon="adjust" rotation={isDarkMode ? 180 : undefined} />
             </a>
           </li>
         </ul>
