@@ -1,24 +1,28 @@
 @import "./color.scss";
 @import "./bootstrap.scss";
-@import "node_modules/animate.css/animate";
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url(../fonts/poppins/Poppins-Regular.ttf);
-}
+@import "./animate.scss";
+@import "./custom/scrollbar.scss";
 
 body {
-  font-family: Poppins-Regular;
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 body,
 html,
 #root {
   height: 100%;
+  //min-width: 400px;
+  //width: auto !important;
 }
 
 .page-content {
   margin-top: 10px;
+  margin-bottom: 15px;
   padding: 10px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.18);
@@ -26,12 +30,12 @@ html,
   box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.18);
 
   &.light {
-    background-color: #1d1e20;
-    color: #ededed;
+    background-color: #ededed;
   }
 
   &.dark {
-    background-color: #ededed;
+    background-color: #1d1e20;
+    color: #ededed;
   }
 }
 
@@ -41,4 +45,23 @@ html,
 
 .fa-r-icon {
   margin-left: 5px;
+}
+
+
+.visible-md {
+  display: none !important;
+}
+
+.hidden-md {
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .visible-md {
+    display: block !important;
+  }
+
+  .hidden-md {
+    display: none !important;
+  }
 }

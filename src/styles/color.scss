@@ -5,6 +5,8 @@ $dark: #1f1e1e;
 $red: #ff003d;
 $pink: #e83e8c;
 $dev: #665eff;
+$light-blue: #00c3ff;
+$dark-blue: #00396e;
 $linkedin: #0A66C2;
 $github: #302F2F;
 
@@ -15,6 +17,8 @@ $theme-colors: (
   "dev": $dev,
   "linkedin": $linkedin,
   "github": $github,
+  "light-blue": $light-blue,
+  "dark-blue": $dark-blue,
 );
 
 $colors: (
@@ -23,6 +27,8 @@ $colors: (
   "dev": $dev,
   "linkedin": $linkedin,
   "github": $github,
+  "light-blue": $light-blue,
+  "dark-blue": $dark-blue,
 );
 
 $danger: $red;

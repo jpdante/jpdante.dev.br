@@ -7,12 +7,14 @@ import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import PullStateStorage from "../pullstate/PullStateStorage";
 
 function Router() {
   return (
     <div className="wrapper">
       <BrowserRouter>
         <NavBar />
+        <PullStateStorage />
         <Switch>
           <Route exact component={Home} path="/" />
           <Route exact component={Projects} path="/projects" />

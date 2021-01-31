@@ -1,8 +1,108 @@
-.pageMargin {
+.homePage {
   margin-top: 100px !important;
+
+  &.dark {
+    .profilePic {
+      border: 4px solid #1d1e20;
+    }
+
+    .languages {
+      .languageItem {
+        .circleContainer {
+          .circle {
+            background: #e83e8c;
+          }
+        }
+      }
+    }
+  }
+
+  &.light {
+    .profilePic {
+      border: 4px solid #ededed;
+    }
+
+    .languages {
+      .languageItem {
+        .circleContainer {
+          .circle {
+            background: #e83e8c;
+            //background: linear-gradient(351deg, #c02f73 0%, #e83e8c 100%);
+          }
+        }
+      }
+    }
+  }
+
+  .profilePic {
+    margin-top: -60px;
+    border-radius: 50%;
+    display: inline-block;
+
+    img {
+      border-radius: 50%;
+      max-width: 150px;
+    }
+  }
+
+  .resume {
+    padding: 10px 10px 0 10px;
+  }
+
+  .academicItem {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+    .academicIcon {
+      border-radius: 5%;
+      display: inline-block;
+      //background-color: #665eff;
+
+      img {
+        border-radius: 5%;
+        max-width: 83px;
+      }
+    }
+
+    .academicInfo {
+      margin-left: 15px;
+      display: inline-block;
+    }
+  }
+
+  .languages {
+    .languageItem {
+      text-align: center;
+      margin-top: 20px;
+
+      .circleContainer {
+        display: inline-block;
+        margin-bottom: 15px;
+
+        .circle {
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          padding: 20px;
+          --animate-delay: 5s;
+        }
+      }
+
+      .languageDescription {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 
-.profilePic {
+/*.profilePic {
   margin-top: -60px;
 
   img {
@@ -12,45 +112,7 @@
     -moz-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.19);
     box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.19);
   }
-}
-
-.profilePic2 {
-  margin-top: -60px;
-  border-radius: 50%;
-  display: inline-block;
-
-  img {
-    border-radius: 50%;
-    max-width: 150px;
-  }
-
-  &.light {
-    border: 4px solid #1d1e20;
-  }
-
-  &.dark {
-    border: 4px solid #ededed;
-  }
-}
-
-.circle {
-  border-radius: 50%;
-  background-color: #665eff;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 20px;
-  --animate-delay: 5s;
-}
-
-.languages {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 15px;
-}
+}*/
 
 .c1 {
   -webkit-animation-delay: 0.3s;
@@ -72,6 +134,12 @@
   animation-delay: 1.2s;
 }
 
-.wrapped {
-  width: 100%;
+.c5 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.c6 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }

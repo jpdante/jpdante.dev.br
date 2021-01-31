@@ -1,6 +1,8 @@
 .bg {
   height: 100%;
+  min-width: 400px;
   transition: all 0.5s ease;
+  overflow-y: auto;
 }
 
 .bgDark {
@@ -13,10 +15,10 @@
 }
 
 .bgLight {
-  background: #665eff;
+  background: #4840da;
   background: linear-gradient(
     351deg,
-    #665eff 0%,
+    #4840da 0%,
     #00c3ff 100%
   );
 }

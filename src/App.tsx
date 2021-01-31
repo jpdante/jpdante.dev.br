@@ -1,22 +1,19 @@
-import React, { Suspense } from "react";
+import React from "react";
 import Routes from "./routes";
-
-import Loading from "./pages/Loading";
+import Background from "./components/Background";
 
 import "./utils/FontAwesome";
+import "./utils/FontLoader";
+import "./../node_modules/bootstrap/js/src/collapse";
 
 import "./styles/global.scss";
-import "bootstrap";
-import "jquery";
-import Background from "./components/Background";
+//import "jquery";
 
 function App() {
   return (
-    <Suspense fallback={<Loading />}>
-      <Background>
-        <Routes />
-      </Background>
-    </Suspense>
+    <Background>
+      <Routes />
+    </Background>
   );
 }
 
