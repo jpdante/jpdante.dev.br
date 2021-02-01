@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { GlobalStore } from "../../pullstate/GlobalStore";
 import ProfilePicture from "../../image/profile.jpg";
 import UAM from "../../image/uam.png";
+import PageFooter from "../../components/PageFooter";
 
 import styles from "./Home.module.scss";
 
@@ -28,6 +29,8 @@ function Home() {
 
         <hr />
         <Skills />
+
+        <PageFooter />
       </div>
     </div>
   );
@@ -164,16 +167,16 @@ function Skills() {
           Soft Skills
         </h3>
         <div className="d-flex flex-column text-center">
-          <div className="item">
+          <div className={`item animated fadeInLeft ${styles.c1}`}>
             <h5>{">"} Test 1</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInLeft ${styles.c2}`}>
             <h5>{">"} Test 1</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInLeft ${styles.c3}`}>
             <h5>{">"} Test 1</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInLeft ${styles.c4}`}>
             <h5>{">"} Test 1</h5>
           </div>
         </div>
@@ -183,16 +186,16 @@ function Skills() {
           Hard Skills
         </h3>
         <div className="d-flex flex-column text-center">
-          <div className="item">
+          <div className={`item animated fadeInRight ${styles.c1}`}>
             <h5>{">"} Test 2</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInRight ${styles.c2}`}>
             <h5>{">"} Test 2</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInRight ${styles.c3}`}>
             <h5>{">"} Test 2</h5>
           </div>
-          <div className="item">
+          <div className={`item animated fadeInRight ${styles.c4}`}>
             <h5>{">"} Test 2</h5>
           </div>
         </div>

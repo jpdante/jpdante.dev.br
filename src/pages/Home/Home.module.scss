@@ -4,6 +4,7 @@
   &.dark {
     .profilePic {
       border: 4px solid #1d1e20;
+      background-color: #1d1e20;
     }
 
     .languages {
@@ -20,6 +21,7 @@
   &.light {
     .profilePic {
       border: 4px solid #ededed;
+      background-color: #ededed;
     }
 
     .languages {
@@ -38,10 +40,11 @@
     margin-top: -60px;
     border-radius: 50%;
     display: inline-block;
+    width: 158px;
 
     img {
       border-radius: 50%;
-      max-width: 150px;
+      width: 150px;
     }
   }
 

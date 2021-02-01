@@ -29,17 +29,17 @@ const App = () => {
           <ul className="nav navbar-nav ml-auto w-100 justify-content-end">
             <li className="nav-item mr-3">
               <NavLink to="/" exact>
-                Home
+                Início
               </NavLink>
             </li>
             <li className="nav-item mr-3">
-              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/projects">Projetos</NavLink>
             </li>
             <li className="nav-item mr-3">
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about">Sobre</NavLink>
             </li>
             <li className="nav-item mr-3">
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact">Contato</NavLink>
             </li>
             <li className="nav-item mr-3">
               <a
