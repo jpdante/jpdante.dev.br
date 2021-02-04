@@ -42,10 +42,7 @@ function AcademicFormation() {
       <h3 className="text-center poppins-bold text-dev">Formação Acadêmica</h3>
       <div className={styles.academicItem}>
         <div className={styles.academicIcon}>
-          <img
-            src={UAM}
-            alt="Profile"
-          ></img>
+          <img src={UAM} alt="Profile"></img>
         </div>
         <div className={styles.academicInfo}>
           <h5>Universidade Anhembi Morumbi (UAM)</h5>
@@ -64,10 +61,7 @@ function ProfileInfo() {
         <div className="d-flex justify-content-between flex-wrap">
           <div className="d-flex item">
             <div className={styles.profilePic}>
-              <img
-                src={ProfilePicture}
-                alt="Profile"
-              ></img>
+              <img src={ProfilePicture} alt="Profile"></img>
             </div>
             <div className="mx-2">
               <h4>
@@ -107,10 +101,7 @@ function ProfileInfo() {
 
       <div className="visible-md text-center">
         <div className={styles.profilePic}>
-          <img
-            src={ProfilePicture}
-            alt="Profile"
-          ></img>
+          <img src={ProfilePicture} alt="Profile"></img>
         </div>
         <div className="my-2">
           <h4>
@@ -167,17 +158,17 @@ function Skills() {
           Soft Skills
         </h3>
         <div className="d-flex flex-column text-center">
-          <div className={`item animated fadeInLeft ${styles.c1}`}>
-            <h5>{">"} Test 1</h5>
+          <div className={`item animated fadeInRight ${styles.c1}`}>
+            <h5>{">"} Pensamento analítico</h5>
           </div>
-          <div className={`item animated fadeInLeft ${styles.c2}`}>
-            <h5>{">"} Test 1</h5>
+          <div className={`item animated fadeInRight ${styles.c2}`}>
+            <h5>{">"} Colaboração</h5>
           </div>
-          <div className={`item animated fadeInLeft ${styles.c3}`}>
-            <h5>{">"} Test 1</h5>
+          <div className={`item animated fadeInRight ${styles.c3}`}>
+            <h5>{">"} Organização</h5>
           </div>
-          <div className={`item animated fadeInLeft ${styles.c4}`}>
-            <h5>{">"} Test 1</h5>
+          <div className={`item animated fadeInRight ${styles.c4}`}>
+            <h5>{">"} Gerenciamento de tempo</h5>
           </div>
         </div>
       </div>
@@ -186,17 +177,17 @@ function Skills() {
           Hard Skills
         </h3>
         <div className="d-flex flex-column text-center">
-          <div className={`item animated fadeInRight ${styles.c1}`}>
-            <h5>{">"} Test 2</h5>
+          <div className={`item animated fadeInLeft ${styles.c1}`}>
+            <h5>{">"} Programação</h5>
           </div>
-          <div className={`item animated fadeInRight ${styles.c2}`}>
-            <h5>{">"} Test 2</h5>
+          <div className={`item animated fadeInLeft ${styles.c2}`}>
+            <h5>{">"} SQL</h5>
           </div>
-          <div className={`item animated fadeInRight ${styles.c3}`}>
-            <h5>{">"} Test 2</h5>
+          <div className={`item animated fadeInLeft ${styles.c3}`}>
+            <h5>{">"} HTML, CSS, JavaScript</h5>
           </div>
-          <div className={`item animated fadeInRight ${styles.c4}`}>
-            <h5>{">"} Test 2</h5>
+          <div className={`item animated fadeInLeft ${styles.c4}`}>
+            <h5>{">"} Depuração</h5>
           </div>
         </div>
       </div>

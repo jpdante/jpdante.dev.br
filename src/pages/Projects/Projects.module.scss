@@ -1,12 +1,12 @@
-.pageMargin {
-  margin-top: 100px;
-}
+.project {
 
-.profilePic {
-  margin-top: -60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   img {
-    border-radius: 50%;
-    max-width: 150px;
+    border-radius: 5px;
+    max-width: 100%;
+    pointer-events: none;
+    margin-bottom: 10px;
   }
 }

@@ -35,9 +35,9 @@ const App = () => {
             <li className="nav-item mr-3">
               <NavLink to="/projects">Projetos</NavLink>
             </li>
-            <li className="nav-item mr-3">
+            {/*<li className="nav-item mr-3">
               <NavLink to="/about">Sobre</NavLink>
-            </li>
+              </li>*/}
             <li className="nav-item mr-3">
               <NavLink to="/contact">Contato</NavLink>
             </li>

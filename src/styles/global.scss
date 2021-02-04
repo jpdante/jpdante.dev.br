@@ -56,12 +56,30 @@ html,
   display: block !important;
 }
 
+.visible-lg {
+  display: none !important;
+}
+
+.hidden-lg {
+  display: block !important;
+}
+
 @media (max-width: 768px) {
   .visible-md {
     display: block !important;
   }
 
   .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .visible-lg {
+    display: block !important;
+  }
+
+  .hidden-lg {
     display: none !important;
   }
 }

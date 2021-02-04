@@ -11,6 +11,7 @@ function About() {
     <div className="container">
       <h3 className="text-center text-white mb-3">Sobre</h3>
       <div className={`page-content ${isDarkMode ? "dark" : "light"}`}>
+        
         <PageFooter />
       </div>
     </div>

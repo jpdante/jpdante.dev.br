@@ -5,7 +5,7 @@ import NavBar from "../components/NavBar";
 
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
-import About from "../pages/About";
+//import About from "../pages/About";
 import Contact from "../pages/Contact";
 import PullStateStorage from "../pullstate/PullStateStorage";
 
@@ -18,7 +18,7 @@ function Router() {
         <Switch>
           <Route exact component={Home} path="/" />
           <Route exact component={Projects} path="/projects" />
-          <Route exact component={About} path="/about" />
+          {/*<Route exact component={About} path="/about" />*/}
           <Route exact component={Contact} path="/contact" />
         </Switch>
       </BrowserRouter>
